@@ -29,6 +29,7 @@
             1. Front-End 개발자
             2. Back-End 개발자
             3. Full-Stack 개발자   
+        6. Embeded 개발자
         etc...
 
     - 교육목표
