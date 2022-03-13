@@ -28,7 +28,7 @@
         5. 웹 개발자
             1. Front-End 개발자
             2. Back-End 개발자
-            3. Full-Stack 개발자
+            3. Full-Stack 개발자   
         etc...
 
     - 교육목표
