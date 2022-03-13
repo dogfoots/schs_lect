@@ -119,12 +119,13 @@
 
 * * *
 #### tasks
+* chrome 설치
 * google 회원가입 - 휴대폰 필요
 * github 가입
 * github desktop 설치
-* chrome 설치
 * visual studio code 설치
 * github에 본인의 저장소 설치 및 로컬에 저장소 생성
 * 아무 공유할 text파일을 생성 후 서버에 push 시킬 것
 * 다른 친구들의 프로젝트들을 받아서 로컬에서 text파일들을 열어볼 것
 * text파일을 수정하고 업데이트해서 서버에 올려볼 것.
+
