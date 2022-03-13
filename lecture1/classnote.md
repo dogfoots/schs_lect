@@ -63,6 +63,8 @@
         <br/>
         etc...
 
+        <img src="/dev_scheme.png" title="dev scheme" alt="dev scheme"></img>
+
     - 교육목표
         <pre>이 전체 과정을 이수한 사람은 왠만한 기업에 들어가더라도 바로 실무에 투입 가능한 수준의<br/>프로그래밍 기능인을 만드는데 있다.</pre>
         <br/>
