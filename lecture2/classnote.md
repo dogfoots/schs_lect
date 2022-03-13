@@ -12,7 +12,7 @@
     - 웹 서버는 무슨 역할을 하는가
 
 * HTML, CSS, JAVASCRIPT
-    - 
+    - ddd
 
 * * *
 #### tasks
