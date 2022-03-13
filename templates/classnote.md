@@ -5,6 +5,10 @@
 
 
 #### keywords
+* 프로그래머
+    - 하는 일
+    - 진로
+    - 우리는 뭘 할 것이냐
 * web browser
 * 운영체제(operating system)
 * editor
