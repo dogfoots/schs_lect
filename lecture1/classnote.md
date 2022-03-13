@@ -82,7 +82,14 @@
     - 소스 형상관리란<br/>
         협업에 있어서 많은 사람들과 같은 프로젝트에서 소스를 공유하고 함께 작업하는데<br/>
         이력관리 및 소스 통합이 가능하도록 하는 관리를 말함.<br/>
-        이를 돕기 위해서 많이 쓰이는 형상 관리 툴들이 있는데, **SVN(SubVersioN)**과 **Git**이 있다.
+        이를 돕기 위해서 많이 쓰이는 형상 관리 툴들이 있는데,<br/>
+        대표적으로 **SVN(SubVersioN)**과 **Git**이 있다.<br/>
+        과거에는 소스 형상관리가 그렇게 중요한 항목이 아니었으나, 요즘에는 어느 기업에 가던지, 이 능력은 개발자로서 필수이며<br/>
+        git을 얼마나 더 능숙하게 다루느냐가 스펙으로 인정받는다.<br/>
+        Open Source Project들이 이 git을 통하여 서로 소스를 공유하고 협업하며<br/>
+        이러한 프로젝트들에 기여도가 얼마이냐를 포트폴리오로 제출하라고 하거나, 기술직군 면접 볼 때의 주요한<br/>
+        경력사항으로 보기도 한다.
+
     - svn<br/>
         서버의 repository(저장소)에 해당 프로젝트의 소스코드를 commit하여 올리거나, update하여 로컬 컴퓨터에<br/>
         내려받을 수 있다. check out을 통해서 서버의 프로젝트를 로컬 컴퓨터에 이관시키고<br/>
@@ -110,18 +117,6 @@
     - 소스 편집기 종류<br/>
         <pre>notepad plus, visual studio code, atom, sumlime text, vim</pre>
 
-* web browser
-    - types
-
-* web server
-
-* html(hypert text markup language)
-* css(cascading style sheets)
-* javascript
-
-* 운영체제(operating system)
-
-
 * * *
 #### tasks
 * google 회원가입 - 휴대폰 필요
@@ -129,3 +124,7 @@
 * github desktop 설치
 * chrome 설치
 * visual studio code 설치
+* github에 본인의 저장소 설치 및 로컬에 저장소 생성
+* 아무 공유할 text파일을 생성 후 서버에 push 시킬 것
+* 다른 친구들의 프로젝트들을 받아서 로컬에서 text파일들을 열어볼 것
+* text파일을 수정하고 업데이트해서 서버에 올려볼 것.
