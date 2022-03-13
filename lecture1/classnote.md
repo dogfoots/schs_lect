@@ -79,17 +79,17 @@
         <pre>HTML, CSS, JAVASCRIPT를 먼저 학습 할 것, 그리고 python을 학습할 것(대학 대비),<br/>실무를 위해서 필요한 SQL구문도 학습해야 함<br/>좀 더 OS/하드웨어적인 진로 개척을 원한다면 C, C++까지 학습.</pre>
 
 * 소스 형상관리
-    - 소스 형상관리란
+    - 소스 형상관리란<br/>
         협업에 있어서 많은 사람들과 같은 프로젝트에서 소스를 공유하고 함께 작업하는데<br/>
         이력관리 및 소스 통합이 가능하도록 하는 관리를 말함.<br/>
         이를 돕기 위해서 많이 쓰이는 형상 관리 툴들이 있는데, **SVN(SubVersioN)**과 **Git**이 있다.
-    - svn
+    - svn<br/>
         서버의 repository(저장소)에 해당 프로젝트의 소스코드를 commit하여 올리거나, update하여 로컬 컴퓨터에<br/>
         내려받을 수 있다. check out을 통해서 서버의 프로젝트를 로컬 컴퓨터에 이관시키고<br/>
         그때부터 로컬 개발 컴퓨터에서 작업한 내용을 commit하거나 서버에 올라가있는 최신버전을 update받아서<br/>
         최신버전으로 바꿀 수 있다. 이때, 로컬에서 작업한 내용과 서버에서 업데이트 받는 내용이 충돌이 날 경우<br/>
         conflict라는 경고가 나타나고, 이를 소스 편집을 통해서 통합시킬 수 있다.
-    - git
+    - git<br/>
         SVN에서 발전된 형태로 서버의 repository(저장소)와 로컬 컴퓨터의 repository(저장소)가 따로 존재한다.<br/>
         이렇게 나눈 이유는, branch라는 버전 관리의 특성이 필요해졌기 때문이다.(SVN은 이러한 버전관리가 안 됨)<br/>
         따라서 로컬 개발 컴퓨터에서 작업한 내용을 먼저 로컬 repository(저장소)에 commit 시키고, 로컬 저장소에서<br/>
@@ -97,7 +97,7 @@
         서버에 있는 가장 최근 업데이트 내용을 Fetch(SVN의 update 개념) 받아서 갱신할 수 있다.
 
 * editor
-    - 소스 편집기
+    - 소스 편집기<br/>
         editor라고도 불리는 이 소스 편집기는, IDE(Integrated Development Environment)에 포함되는 것이다.<br/>
         보통 응용 프로그램을 개발하기 위해 사용하는<br/>
         Visual Studio(Visual Studio Code와는 다른 프로그램임), XCode, Android Studio, Kotlin, Eclipse, inteliJ 등을<br/>
@@ -106,8 +106,8 @@
         <br/>
         그러나 우리의 교육목표 상, IDE까지는 필요없으므로, Visual Studio Code라는 소스 에디터를 사용할 것이다.<br/>
         물론 이 Visual Studio Code도 여러가지 플러그 인들을 설치하고 추가기능들을 설치가능하며, 상당히 방대하고도<br/>
-        편리한 기능을 많이 제공하기 때문에, Windows를 사용하는 개발 실무자들에게 많은 사랑을 받는 에디터이다.
-    - 소스 편집기 종류
+        편리한 기능을 많이 제공하기 때문에, Windows를 사용하는 개발 실무자들에게 많은 사랑을 받는 에디터이다.<br/>
+    - 소스 편집기 종류<br/>
         <pre>notepad plus, visual studio code, atom, sumlime text, vim</pre>
 
 * web browser
