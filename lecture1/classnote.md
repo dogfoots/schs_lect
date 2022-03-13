@@ -97,9 +97,18 @@
         서버에 있는 가장 최근 업데이트 내용을 Fetch(SVN의 update 개념) 받아서 갱신할 수 있다.
 
 * editor
-    - 종류들
-    - notepad plus
-    - visual studio code
+    - 소스 편집기
+        editor라고도 불리는 이 소스 편집기는, IDE(Integrated Development Environment)에 포함되는 것이다.<br/>
+        보통 응용 프로그램을 개발하기 위해 사용하는<br/>
+        Visual Studio(Visual Studio Code와는 다른 프로그램임), XCode, Android Studio, Kotlin, Eclipse, inteliJ 등을<br/>
+        IDE라고 부르는데, 단순히 소스만 편집하는 용도가 아니라, GUI(Graphic User Interface)를 시각화하여<br/>
+        편집 가능한 기능들도 제공한다. 총체적으로 프로그램을 만들기 위한 모든 기능과 도구들을 망라한다.<br/>
+        <br/>
+        그러나 우리의 교육목표 상, IDE까지는 필요없으므로, Visual Studio Code라는 소스 에디터를 사용할 것이다.<br/>
+        물론 이 Visual Studio Code도 여러가지 플러그 인들을 설치하고 추가기능들을 설치가능하며, 상당히 방대하고도<br/>
+        편리한 기능을 많이 제공하기 때문에, Windows를 사용하는 개발 실무자들에게 많은 사랑을 받는 에디터이다.
+    - 소스 편집기 종류
+        <pre>notepad plus, visual studio code, atom, sumlime text, vim</pre>
 
 * web browser
     - types
