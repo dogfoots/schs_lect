@@ -42,17 +42,20 @@
         하지만, 어떤 언어라도 3-4년 정도 공부하게되면, 이 프로그래밍 언어에서 제공하는 것을 다른 언어에서는 제공하지 않는 경우는<br/>
         거의 없기 때문에, 일단 하나라도 빠삭하게 공부하는 것이 좋다.
         <br/>
-        예) hello world 프린트하기 코드
+        예) hello world 프린트하기 코드<br/>
         javascript 코드
         ```javascript
         console.log("hello world")
         ```
+        python 코드
         ```python
         print('hello world')
         ```
+        C, C++ 코드
         ```C
         printf("hello world");
         ```
+        java 코드
         ```java
         System.out.println("hello world");
         ```
