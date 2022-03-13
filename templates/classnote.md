@@ -5,10 +5,13 @@
 
 
 #### keywords
+* web browser
+* 운영체제(operating system)
+* editor
+* visual studio code
+* html(hypert text markup language)
+
+
+
 * * *
-
-
-
-
 #### tasks
-* * *
