@@ -9,14 +9,25 @@
     - 프로그래머란
     - 실무에서 프로그래머
     - 교육목표
-* web browser
-* 운영체제(operating system)
+
+* 소스 형상관리
+    - svn
+    - git
+
 * editor
-* visual studio code
+    - notepad plus
+    - visual studio code
+
+* web browser
+    - types
+
+* web server
+
 * html(hypert text markup language)
 * css(cascading style sheets)
 * javascript
-* 소스 형상관리
+
+* 운영체제(operating system)
 
 
 * * *
