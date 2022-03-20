@@ -8,15 +8,31 @@
 * 웹 브라우저
     - 웹 브라우저란 무엇인가
 
-    정의된 규칙에 따라 작성된 파일을 불러다가 화면에 그려주고, 사용자가 발생시킨 이벤트(마우스 클릭, 이동 등)에 따라 동작시켜주는 응용 프로그램<br/>
-    여기에 정의된 규칙에 따라 작성된 파일이 HTML파일이다(Hyper Text Markup Language).
+    정의된 규칙에 따라 작성된 파일을 불러다가 화면에 그려주고, 사용자가 발생시킨 이벤트(마우스 클릭, 이동 등)에 따라 동작시켜주는 응용 프로그램<br/><br/>
+    여기에 정의된 규칙에 따라 작성된 파일이 **HTML**파일이다(Hyper Text Markup Language).<br/>이 파일은 웹문서라고도 부른다.
 
     - 웹 브라우저의 종류
 
     <pre>Internet Explorer, Edge, Chrome, Opera, Safari, FireFox 등...</pre>
 
-* HTML, CSS, JAVASCRIPT
-    - ddd
+* HTML5
+    - HTML 파일의 정의 규칙
+
+    HTML 규칙에 따라 작성된 파일은 웹브라우저에서 읽어들여서 화면에 그려준다.<br/>
+    이는 **태그**라는 작성방식을 사용해 작성하게 된다.<br/><br/>
+
+    - HTML 파일 구조(가장 최신버전인 HTML5 규칙을 적용)
+    텍스트 형태로 작성하며 구조는 아래와 같다
+   ```HTML
+    <!DOCTYPE html>
+    <html>
+        <head>
+        </head>
+        <body>
+        </body>
+    </html>
+   ```
+
 
 * * *
 #### tasks
