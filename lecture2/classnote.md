@@ -13,8 +13,7 @@
 
     - 웹 브라우저의 종류
 
-    Internet Explorer, Edge, Chrome, Opera, Safari, FireFox 등...
-
+    <pre>Internet Explorer, Edge, Chrome, Opera, Safari, FireFox 등...</pre>
 
 * HTML, CSS, JAVASCRIPT
     - ddd
