@@ -38,6 +38,12 @@
         </body>
     </html>
    ```
+    - 실습<br/>
+    1. github desktop에서 current repository를 자신의 repository로 변환하여, VS Code에서 열 것.
+    2. 열린 VS Code에서 practice2 디렉토리를 생성하고, 해당 폴더 안에 html파일 확장자를 만들 것.
+    3. 위 코드를 ctrl+c, v 하지말고 직접 타이핑하여 작성해 볼 것.
+    <br/>
+    <br/>
 
 
 * * *

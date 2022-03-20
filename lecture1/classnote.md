@@ -131,4 +131,6 @@
 * 텍스트 파일을 practice1이라는 디렉토리에 만들고, 해당 텍스트 파일에 요한복음 3:16이나 로마서 10:9이나 로마서 3:24을 작성할 것
 * 텍스트 파일 밑에 자신의 이름을 써놓을 것.
 * 텍스트 파일을 commit하고, push 시키고, github에서 내용이 잘 올라갔는지 확인할 것.
-* 
+* clone repository를 누르고, 친구들의 github url을 입력하여 repository를 연결시켜 다운로드할 것.
+* current repository에서 clone시킨 친구의 repository를 눌러서 visual studio code로 열어 볼 것.
+
