@@ -42,10 +42,17 @@
     1. github desktop에서 current repository를 자신의 repository로 변환하여, VS Code에서 열 것.
     2. 열린 VS Code에서 practice2 디렉토리를 생성하고, 해당 폴더 안에 html파일 확장자를 만들 것.
     3. 위 코드를 ctrl+c, v 하지말고 직접 타이핑하여 작성해 볼 것.
-    4. 자신이 저장한 로컬 repository 디렉토리에서 작성한 HTML 코드를 더블클릭하여 웹브라우저에서 동작시켜 볼 것.
+    4. 자신이 저장한 로컬 repository 디렉토리에서 작성한 HTML 코드를 더블클릭하여 웹브라우저(chrome)에서 동작시켜 볼 것.
     <br/>
     <br/>
+    
     - 실습2<br/>
+    1. chrome > 우상단 더보기버튼(점세개버튼) > 도구 더보기 > 개발자도구를 눌러볼 것
+    2. 나타난 개발자 도구에서 source 탭을 열어볼 것. 거기에 자신의 html파일을 확인 할 것.
+    3. VS Code에서 html 코드에 있는 h1태그 내용을 마음대로 수정해볼 것. title 내용도 수정해볼 것.
+    4. 수정 후 웹브라우저의 F5키를 눌러서 새로고침 해볼 것.
+    <br/>
+    <br/>
 
 
 * * *
