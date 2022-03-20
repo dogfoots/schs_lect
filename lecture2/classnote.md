@@ -25,10 +25,16 @@
     텍스트 형태로 작성하며 구조는 아래와 같다
    ```HTML
     <!DOCTYPE html>
-    <html>
+    <html lang="ko">
         <head>
+            <meta charset="UTF-8">
+            <title>HTML 문서</title>
         </head>
         <body>
+            <h1>프런트엔드 웹 개발</h1>
+            <hr>
+            <p>태초에 말씀이 계셨고 그 말씀이 하나님과 함께 계셨으니 그 말씀은 하나님이셨느니라.</p>
+            <p>요한복음 1:1</p>
         </body>
     </html>
    ```
