@@ -126,6 +126,9 @@
 * visual studio code 설치
 * github desktop을 실행하고 자신의 아이디로 로그인 할 것.
 * 본인의 repository에 원하는 이름의 repository를 new repository를 눌러서 생성할 것.
+* 생성 후 open in visual studio code라는 버튼을 눌러 visual studio code를 해당 디렉토리에서 실행시켜볼 것.
 * 생성한 repository에 practice1라는 디렉토리를 생성할 것.
 * 텍스트 파일을 practice1이라는 디렉토리에 만들고, 해당 텍스트 파일에 요한복음 3:16이나 로마서 10:9이나 로마서 3:24을 작성할 것
+* 텍스트 파일 밑에 자신의 이름을 써놓을 것.
 * 텍스트 파일을 commit하고, push 시키고, github에서 내용이 잘 올라갔는지 확인할 것.
+* 
