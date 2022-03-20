@@ -124,8 +124,8 @@
 * github 가입
 * github desktop 설치
 * visual studio code 설치
-* github에 본인의 저장소 설치 및 로컬에 저장소 생성
-* 아무 공유할 text파일을 생성 후 서버에 push 시킬 것
-* 다른 친구들의 프로젝트들을 받아서 로컬에서 text파일들을 열어볼 것
-* text파일을 수정하고 업데이트해서 서버에 올려볼 것.
-
+* github desktop을 실행하고 자신의 아이디로 로그인 할 것.
+* 본인의 repository에 원하는 이름의 repository를 new repository를 눌러서 생성할 것.
+* 생성한 repository에 practice1라는 디렉토리를 생성할 것.
+* 텍스트 파일을 practice1이라는 디렉토리에 만들고, 해당 텍스트 파일에 요한복음 3:16이나 로마서 10:9이나 로마서 3:24을 작성할 것
+* 텍스트 파일을 commit하고, push 시키고, github에서 내용이 잘 올라갔는지 확인할 것.
