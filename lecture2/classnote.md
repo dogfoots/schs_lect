@@ -77,6 +77,12 @@
         <body>~</body>
     </html>
     ```
+    ```HTML
+    <!--html의 태그 내에 들어갈 수 있는 태그는 기본적으로 head태그와 body태그가 짝을 이루어 들어갑니다.-->
+    <head>
+    </head>
+    ```
+    
 
 * * *
 #### tasks
