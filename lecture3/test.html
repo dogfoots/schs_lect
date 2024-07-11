@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./trafficDead.js"></script>
+</head>
+<body>
+    <script>
+
+        function printInjure(countNum, postfixStr){
+            console.log("" + countNum + postfixStr);
+            return;
+        }
+
+        function plusOne(param1){
+            param1++;
+            return param1;
+        }
+
+        function plusTwo(param1){
+            param1+=2;
+            return param1;
+        }
+
+        function f(x){
+            const y =  x*x - 1;
+            return y;
+        }
+
+        function getDistance(lat1, lon1, lat2, lon2) {
+            if ((lat1 == lat2) && (lon1 == lon2))
+                return 0;
+        
+            var radLat1 = Math.PI * lat1 / 180;
+            var radLat2 = Math.PI * lat2 / 180;
+            var theta = lon1 - lon2;
+            var radTheta = Math.PI * theta / 180;
+            var dist = Math.sin(radLat1) * Math.sin(radLat2) + Math.cos(radLat1) * Math.cos(radLat2) * Math.cos(radTheta);
+            if (dist > 1)
+                dist = 1;
+        
+            dist = Math.acos(dist);
+            dist = dist * 180 / Math.PI;
+            dist = dist * 60 * 1.1515 * 1.609344 * 1000;
+            if (dist < 100) dist = Math.round(dist / 10) * 10;
+            else dist = Math.round(dist / 100) * 100;
+        
+            return dist;
+        }
+
+        //console.log(printInjure(120, "개"));
+        printInjure(120, "개");
+        console.log(plusOne(120));
+        console.log(plusTwo(120));
+        console.log(f(0));
+        console.log(f(1));
+        console.log(f(2));
+        console.log(getDistance(1,2, 4,6));
+
+
+        let year = prompt("연도를 입력하세요.");
+        let gungu = prompt("군/구를 입력하세요.");
+
+        let sum = 0;
+        
+        for(let i=0; i<trafficDeads.length; i++){
+            //console.log(trafficDeads[i].year);
+            if(trafficDeads[i].year == year &&
+            trafficDeads[i].gungu == gungu){
+                //sum = sum + trafficDeads[i].dead;
+                sum += trafficDeads[i].dead;
+            }
+
+            printInjure(trafficDeads[i].injureCnt, "명");
+            /*if(trafficDeads[i].year == year){
+                if(trafficDeads[i].gungu == gungu){
+                    sum += trafficDeads[i].dead;
+                }
+            }*/
+
+            const latitude1 = 37.606445;
+            const longitude1 = 126.7509384;
+            const latitude2 = trafficDeads[i].latitude;
+            const longitude2 = trafficDeads[i].longitude; 
+            const dist = getDistance(latitude1 , longitude1, latitude2 , longitude2);
+
+            console.log(dist);
+        }
+
+        document.write("<h1>"+gungu+"의 "+year+"년 사망자 합계는 "+sum+"입니다.<h1>");
+
+        /*
+        const latitude1 = trafficDeads[0].latitude;
+        const longitude1 =trafficDeads[0].longitude;
+        const latitude2 = trafficDeads[1].latitude;
+        const longitude2 = trafficDeads[1].longitude; 
+        
+        function getDistance(lat1, lon1, lat2, lon2) {
+            if ((lat1 == lat2) && (lon1 == lon2))
+                return 0;
+        
+            var radLat1 = Math.PI * lat1 / 180;
+            var radLat2 = Math.PI * lat2 / 180;
+            var theta = lon1 - lon2;
+            var radTheta = Math.PI * theta / 180;
+            var dist = Math.sin(radLat1) * Math.sin(radLat2) + Math.cos(radLat1) * Math.cos(radLat2) * Math.cos(radTheta);
+            if (dist > 1)
+                dist = 1;
+        
+            dist = Math.acos(dist);
+            dist = dist * 180 / Math.PI;
+            dist = dist * 60 * 1.1515 * 1.609344 * 1000;
+            if (dist < 100) dist = Math.round(dist / 10) * 10;
+            else dist = Math.round(dist / 100) * 100;
+        
+            return dist;
+        }
+        console.log((getDistance(latitude1, longitude1, latitude2, longitude2) / 1000.0) + "km");
+        */
+       
+
+        function onGeolocationSuccess(position) {
+            // 좌표 출력
+            console.log("lat: " + position.coords.latitude + ", lon: " + position.coords.longitude); 
+        }
+
+        function onGeolocationFail(error) {
+            // 에러 출력
+            console.log("Error Code: " + error.code + ", Error Description: " + error.message);
+        }
+
+        if(navigator.geolocation) 
+        {
+            // 정확한 위치 사용
+            // 캐시 사용 안함
+            // timeout 3초 (3000ms)
+            var positionOptions = {
+                    enableHighAccuracy	: true, 
+                    maximumAge		: 0, 
+                    timeout			: 10000
+            };
+
+            navigator.geolocation.getCurrentPosition(onGeolocationSuccess, onGeolocationFail, positionOptions);
+        }
+
+
+    </script>
+</body>
+</html>
